@@ -6,6 +6,15 @@ body {
  	width:100%;
 }
 
+.container1 {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 500px;
+  margin: auto;
+  padding: 45px;
+  text-align: center;
+}
 h1,h2 {
 	height:100px;
 	background-color: black;
@@ -33,7 +42,6 @@ ul {
 li a {
     display: block;
     color: white;
-    padding: 14px 16px;
     text-align:center;
     background-color: black;
     }
@@ -44,8 +52,8 @@ ul li a:hover {
     
 li {
     float: left;
-       border-right:3px solid #bbb;
-       min-width: 230px;
+       border-right:1px solid #bbb;
+       min-width: 185px;
 }
 li:last-child {
     border-right: none;

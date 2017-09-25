@@ -1,26 +1,23 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags" %>
     <%@include file= "Head.jsp" %>
-      <%@include file= "Foot.jsp" %>
+      
 
 <html>
 <head>
-<!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>  -->
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
-
-<link rel = "stylesheet"
-   type = "text/css"
-   href = "resource/css/Stylesheet1.css" />
-<!-- <style type="text/css">
+   
+<style type="text/css">
 body {
 	background: url(resource/Images/bluewall.png)no-repeat;
 	background-size: cover;
 }
-</style> -->
+</style>
+<title>Index</title>
 </head>
 <body>
 
@@ -70,7 +67,7 @@ body {
 <br>
 
 
-
+<%@include file= "Foot.jsp" %>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
 

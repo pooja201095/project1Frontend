@@ -3,6 +3,7 @@
 	<name>MuZZic</name>
 	<comment></comment>
 	<projects>
+		<project>MuZicBackend</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

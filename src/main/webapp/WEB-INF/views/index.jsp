@@ -1,28 +1,28 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags" %>
-    <%@include file= "Head.jsp" %>
-      <%@include file= "Foot.jsp" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+   
+      
 
 <html>
 <head>
-<!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>  -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
-
-<link rel = "stylesheet"
-   type = "text/css"
-   href = "resource/css/Stylesheet1.css" />
-<!-- <style type="text/css">
+<style type="text/css">
 body {
 	background: url(resource/Images/bluewall.png)no-repeat;
 	background-size: cover;
 }
-</style> -->
+</style>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+   
+
+<title>Index</title>
 </head>
 <body>
+  <%@include file= "Head.jsp" %>
 
 
 <br>   
@@ -30,17 +30,17 @@ body {
 <div id="myCarousel" class="carousel slide" data-ride="carousel" align="center">  
   
     <!-- Wrapper for slides -->  
-    <div class="carousel-inner" role="listbox" style="width: 100%; height: 500px;">  
+    <div class="carousel-inner" role="listbox" style="width: 100%; height: 450px;">  
       <div class="item active">  
-        <img src="resource/Images/Trumpet1.png" alt="Casio" style="height: 50%; width:80%;" >  
+        <img src="resource/Images/Trumpet1.png" alt="Casio" style="height: 450px; width:100%;" >  
       </div>  
   
       <div class="item">  
-        <img src="resource/Images/gui3.png" alt="Guitar" style="height: 50%; width:80%;">  
+        <img src="resource/Images/gui3.png" alt="Guitar" style="height: 450px; width:100%;">  
       </div>  
       
       <div class="item">  
-        <img src="resource/Images/vio2.png" alt="Violen" style="height: 50%; width:80%;">  
+        <img src="resource/Images/vio2.png" alt="Violen" style="height: 450px; width:100%;">  
       </div>  
     </div>  
   
@@ -70,7 +70,7 @@ body {
 <br>
 
 
-
+<%@include file= "Foot.jsp" %>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
 
